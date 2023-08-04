@@ -1,2 +1,2 @@
 #!/bin/bash
-stat -c "%n %a %y %g %s" olleh | sed -e 's/olleh/hello/'
+chmod -reference = oleh hello
