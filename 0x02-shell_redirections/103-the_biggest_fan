@@ -1,7 +1,3 @@
 #!/bin/bash
-
-# Assuming the TSV format is: host or IP (column 1), request (column 2)
-
-# Extract the hosts or IP addresses and count their requests
 cut -f 1 | sort | uniq -c | sort -nr | head -n 11
 
